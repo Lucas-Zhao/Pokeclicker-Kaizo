@@ -45,7 +45,7 @@ class Party implements Feature, TmpPartyType {
             // Shiny pokemon help with a 100% boost
             // Resistant pokemon give a 100% boost
             const partyClickBonus = this.activePartyPokemon.reduce((total, p) => total + p.clickAttackBonus(), 1);
-            return Math.pow(partyClickBonus, 1.4);
+            return Math.pow(partyClickBonus, 1.6);
         });
 
     }

@@ -1634,6 +1634,7 @@ export type PokemonNameType
     | 'Terapagos (Terastal)'
     | 'Terapagos (Stellar)'
     | 'Pecharunt'
+    | 'Clashing Teeth'
     | '???'
     | 'You hateful little Trainer!'
     | 'Segin Starmobile'

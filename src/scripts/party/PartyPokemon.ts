@@ -405,8 +405,8 @@ class PartyPokemon implements Saveable, TmpPartyPokemonType {
     });
 
     vitaminUsesRemaining = ko.pureComputed((): number => {
-        // Allow 5 for every region visited (including Kanto)
-        return (player.highestRegion() + 1) * 5 - this.totalVitaminsUsed();
+        // Allow 10 for every region visited (including Kanto)
+        return (player.highestRegion() + 1) * 10 - this.totalVitaminsUsed();
     });
 
     calculateEVAttackBonus = ko.pureComputed((): number => {
@@ -424,9 +424,9 @@ class PartyPokemon implements Saveable, TmpPartyPokemonType {
     });
 
     getBreedingAttackBonus = ko.pureComputed((): number => {
-        const attackBonusPercent = (GameConstants.BREEDING_ATTACK_BONUS + this.vitaminsUsed[GameConstants.VitaminType.Calcium]()) / 100;
-        const proteinBoost = this.vitaminsUsed[GameConstants.VitaminType.Protein]();
-        let attackBonus = (this.baseAttack * attackBonusPercent) + proteinBoost;
+        const attackBonusPercent = (GameConstants.BREEDING_ATTACK_BONUS + (this.vitaminsUsed[GameConstants.VitaminType.Calcium]()*5)) / 100;
+        const proteinBoost = this.vitaminsUsed[GameConstants.VitaminType.Protein]() * 3;
+        let attackBonus = (this.baseAttack * attackBonusPercent) + (proteinBoost);
         if (Settings.getSetting('breedingEfficiencyAllModifiers').observableValue()) {
             attackBonus *= this.calculateEVAttackBonus() * this.heldItemAttackBonus() * this.shadowAttackBonus();
         }

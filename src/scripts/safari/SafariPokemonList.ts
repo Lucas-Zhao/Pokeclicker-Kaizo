@@ -50,6 +50,7 @@ class SafariPokemonList {
             new SafariEncounter('Parasect', 15),
             new SafariEncounter('Rhyhorn', 10),
             new SafariEncounter('Chansey', 4),
+            new SafariEncounter('Charity Chansey', 4),
             new SafariEncounter('Scyther', 4),
             new SafariEncounter('Pinsir', 4),
             new SafariEncounter('Kangaskhan', 15),

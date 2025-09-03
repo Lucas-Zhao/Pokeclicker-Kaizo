@@ -31557,6 +31557,28 @@ export const pokemonList = createPokemonArray(
             'type': Genders.Genderless,
         },
     },
+    {
+        'id': 1026,
+        'name': 'Clashing Teeth',
+        'nativeRegion': Region.unova,
+        'type': [PokemonType.Ground, PokemonType.Dragon],
+        'base': {
+            'hitpoints': 123,
+            'attack': 131,
+            'specialAttack': 57,
+            'defense': 71,
+            'specialDefense': 75,
+            'speed': 113,
+        },
+        'eggCycles': 50,
+        'levelType': LevelType.slow,
+        'exp': 285,
+        'catchRate': 30,
+        'gender': {
+            'type': Genders.Genderless,
+        },
+        'heldItem': { type: ItemType.item, id: 'Booster_Energy' },
+    },
 
     // ???
     {

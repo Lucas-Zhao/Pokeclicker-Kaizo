@@ -137,11 +137,11 @@ export type SubRegions =
 
 // Battle Items
 export const ITEM_USE_TIME = 30;
-export const FLUTE_TYPE_ATTACK_MULTIPLIER = 1.005;
+export const FLUTE_TYPE_ATTACK_MULTIPLIER = 1.08;
 
 export const ROAMING_MIN_CHANCE = 8192;
 export const ROAMING_MAX_CHANCE = 4096;
-export const ROAMING_INCREASED_CHANCE = 3;
+export const ROAMING_INCREASED_CHANCE = 6;
 
 // Shinies
 export const SHINY_CHANCE_BATTLE = 8192;
@@ -162,8 +162,8 @@ export const PLATE_VALUE = 100;
 // Breeding
 export const EGG_CYCLE_MULTIPLIER = 40;
 export const MAX_EGG_CYCLES = 120;
-export const BREEDING_ATTACK_BONUS = 25;
-export const BREEDING_SHINY_ATTACK_MULTIPLIER = 5;
+export const BREEDING_ATTACK_BONUS = 50;
+export const BREEDING_SHINY_ATTACK_MULTIPLIER = 10;
 
 // Farming
 export const FARM_PLOT_WIDTH = 5;
@@ -172,12 +172,12 @@ export const FARM_PLOT_HEIGHT = 5;
 export const BerryDistribution = [0.39, 0.63, 0.78, 0.87, 0.93, 0.96, 0.98, 1];
 
 export const MULCH_USE_TIME = 300;
-export const BOOST_MULCH_MULTIPLIER = 1.5;
-export const RICH_MULCH_MULTIPLIER = 2;
-export const SURPRISE_MULCH_MULTIPLIER = 1.5;
-export const AMAZE_MULCH_GROWTH_MULTIPLIER = 1.25;
-export const AMAZE_MULCH_PRODUCE_MULTIPLIER = 1.5;
-export const AMAZE_MULCH_MUTATE_MULTIPLIER = 1.25;
+export const BOOST_MULCH_MULTIPLIER = 2.5;
+export const RICH_MULCH_MULTIPLIER = 3;
+export const SURPRISE_MULCH_MULTIPLIER = 4;
+export const AMAZE_MULCH_GROWTH_MULTIPLIER = 1.75;
+export const AMAZE_MULCH_PRODUCE_MULTIPLIER = 2;
+export const AMAZE_MULCH_MUTATE_MULTIPLIER = 1.75;
 export const FREEZE_MULCH_MULTIPLIER = 0;
 export const GOOEY_MULCH_CATCH_BONUS = 10;
 
@@ -264,13 +264,13 @@ export const HELD_MAGIKARP_BISCUIT = 256;
 
 // Gems
 export const GEM_UPGRADE_COST = 500;
-export const GEM_UPGRADE_STEP = 0.1;
+export const GEM_UPGRADE_STEP = 0.2;
 export const MAX_GEM_UPGRADES = 10;
 
 // Gems from battle
 export const DUNGEON_GEMS = 3;
-export const DUNGEON_BOSS_GEMS = 20;
-export const GYM_GEMS = 5;
+export const DUNGEON_BOSS_GEMS = 50;
+export const GYM_GEMS = 25;
 
 // Safari Zone
 export const SAFARI_BATTLE_CHANCE = 5;
@@ -426,19 +426,19 @@ export const QUEST_CLICKS_PER_SECOND = 5;
 export const QUESTS_PER_SET = 10;
 
 // EVs
-export const BASE_EP_YIELD = 100;
-export const STONE_EP_YIELD = 1000;
-export const SHOPMON_EP_YIELD = 1000;
-export const SAFARI_EP_YIELD = 1000;
+export const BASE_EP_YIELD = 200;
+export const STONE_EP_YIELD = 2000;
+export const SHOPMON_EP_YIELD = 2000;
+export const SAFARI_EP_YIELD = 2000;
 
-export const SHINY_EP_MODIFIER = 5;
-export const REPEATBALL_EP_MODIFIER = 5;
-export const DUNGEON_EP_MODIFIER = 3;
-export const DUNGEON_BOSS_EP_MODIFIER = 10;
-export const ROAMER_EP_MODIFIER = 50;
-export const SHADOW_EP_MODIFIER = 2;
-export const BASE_WANDERER_EP_MODIFIER = 2;
-export const WANDERER_EP_MODIFIER = 10;
+export const SHINY_EP_MODIFIER = 9;
+export const REPEATBALL_EP_MODIFIER = 15;
+export const DUNGEON_EP_MODIFIER = 5;
+export const DUNGEON_BOSS_EP_MODIFIER = 25;
+export const ROAMER_EP_MODIFIER = 65;
+export const SHADOW_EP_MODIFIER = 4;
+export const BASE_WANDERER_EP_MODIFIER = 4;
+export const WANDERER_EP_MODIFIER = 20;
 
 export const EP_EV_RATIO = 1000;
 export const EP_CHALLENGE_MODIFIER = 10;
@@ -723,19 +723,19 @@ export const ROUTE_KILLS_NEEDED = 10;
 
 export const ACHIEVEMENT_DEFEAT_ROUTE_VALUES = [
     100,
-    1000,
-    10000,
+    5000,
+    25000,
 ];
 export const ACHIEVEMENT_DEFEAT_GYM_VALUES = [
     10,
-    100,
-    1000,
+    250,
+    2000,
 ];
 export const ACHIEVEMENT_DEFEAT_DUNGEON_VALUES = [
     10,
     100,
-    250,
     500,
+    1500,
 ];
 
 // Use Environments for game mechanics (ex. evolutions, dive ball)

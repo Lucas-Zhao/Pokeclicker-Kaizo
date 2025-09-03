@@ -263,7 +263,7 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Pfft, I Don\'t Need a Bike Voucher', 'Obtain 1,000,000 Pokédollars.', new MoneyRequirement(1000000), 0.25);
         AchievementHandler.addAchievement('A Billion Poképennies', 'Obtain 10,000,000 Pokédollars.', new MoneyRequirement(10000000), 0.3);
         AchievementHandler.addAchievement('Ready To Retire', 'Obtain 1,000,000,000 Pokédollars.', new MoneyRequirement(1000000000), 0.4);
-        AchievementHandler.addAchievement('I Should Go to Space...', 'Obtain 100,000,000,000 Pokédollars.', new MoneyRequirement(100000000000), 0.6);
+        AchievementHandler.addAchievement('I Should Go to Space...', 'Obtain 1,000,000,000,000 Pokédollars.', new MoneyRequirement(1000000000000), 0.6);
 
         AchievementHandler.addAchievement('Dungeon Time', 'Obtain 100 Dungeon Tokens.', new TokenRequirement(100), 0.05);
         AchievementHandler.addAchievement('Token Collector', 'Obtain 1,000 Dungeon Tokens.', new TokenRequirement(1000), 0.10);
@@ -271,11 +271,11 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Dungeon Master', 'Obtain 100,000 Dungeon Tokens.', new TokenRequirement(100000), 0.20);
         AchievementHandler.addAchievement('Dungeon Legend', 'Obtain 1,000,000 Dungeon Tokens.', new TokenRequirement(1000000), 0.25);
         AchievementHandler.addAchievement('Dungeon Myth', 'Obtain 100,000,000 Dungeon Tokens.', new TokenRequirement(100000000), 0.3);
-        AchievementHandler.addAchievement('Dungeon God', 'Obtain 10,000,000,000 Dungeon Tokens.', new TokenRequirement(10000000000), 0.6);
+        AchievementHandler.addAchievement('Dungeon God', 'Obtain 100,000,000,000 Dungeon Tokens.', new TokenRequirement(100000000000), 0.6);
 
         AchievementHandler.addAchievement('Farm Master', 'Obtain 100,000 Farm Points.', new FarmPointsRequirement(100000), 0.20);
-        AchievementHandler.addAchievement('Farm Legend', 'Obtain 1,000,000 Farm Points.', new FarmPointsRequirement(1000000), 0.30);
-        AchievementHandler.addAchievement('Farm Myth', 'Obtain 20,000,000 Farm Points.', new FarmPointsRequirement(20000000), 0.60);
+        AchievementHandler.addAchievement('Farm Legend', 'Obtain 500,000 Farm Points.', new FarmPointsRequirement(5000000), 0.30);
+        AchievementHandler.addAchievement('Farm Myth', 'Obtain 10,000,000 Farm Points.', new FarmPointsRequirement(10000000), 0.60);
 
         AchievementHandler.addAchievement('Startin\' Out', 'Capture your first Pokémon.', new CaughtPokemonRequirement(1), 0.01);
         AchievementHandler.addAchievement('Better Than Season 1 Ash', 'Capture 15 unique Pokémon.', new CaughtPokemonRequirement(15), 0.05);
@@ -307,24 +307,24 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Highway to Pallet Town', 'Defeat 1,000 Pokémon.', new DefeatedRequirement(1000), 0.10);
         AchievementHandler.addAchievement('Overleveled', 'Defeat 10,000 Pokémon.', new DefeatedRequirement(10000), 0.15);
         AchievementHandler.addAchievement('The Cake Is a Lie, but the Grind Is Real', 'Defeat 100,000 Pokémon.', new DefeatedRequirement(100000), 0.25);
-        AchievementHandler.addAchievement('Are There Any Left?', 'Defeat 1,000,000 Pokémon.', new DefeatedRequirement(1000000), 0.50);
+        AchievementHandler.addAchievement('Are There Any Left?', 'Defeat 10,000,000 Pokémon.', new DefeatedRequirement(10000000), 0.50);
 
         AchievementHandler.addAchievement('Basic Trainer', 'Have 100 Attack.', new AttackRequirement(100), 0.05);
         AchievementHandler.addAchievement('Improving', 'Have 1,000 Attack.', new AttackRequirement(1000), 0.10);
-        AchievementHandler.addAchievement('An Unrelenting Force', 'Have 5,000 Attack.', new AttackRequirement(5000), 0.15);
-        AchievementHandler.addAchievement('FUS RO DAH', 'Have 10,000 Attack.', new AttackRequirement(10000), 0.20);
-        AchievementHandler.addAchievement('OK, I Have Enough Attack Already...', 'Have 25,000 Attack.', new AttackRequirement(25000), 0.25);
-        AchievementHandler.addAchievement('Silver Attack Button!', 'Have 100,000 Attack.', new AttackRequirement(100000), 0.30);
-        AchievementHandler.addAchievement('Pesky Roamers, I Need to One-Shot Routes for Them...', 'Have 250,000 Attack.', new AttackRequirement(250000), 0.35);
-        AchievementHandler.addAchievement('You Pressed F12 by Any Chance?', 'Have 500,000 Attack.', new AttackRequirement(500000), 0.40);
-        AchievementHandler.addAchievement('Left-Left-Right-Right-A-B-A-B - Hey, 1 Million!', 'Have 1,000,000 Attack.', new AttackRequirement(1000000), 0.40);
-        AchievementHandler.addAchievement('Can I Beat Diantha Yet?', 'Have 5,000,000 Attack.', new AttackRequirement(5000000), 0.45);
-        AchievementHandler.addAchievement('No One Can Challenge Me!', 'Have 20,000,000 Attack.', new AttackRequirement(20000000), 0.60);
+        AchievementHandler.addAchievement('An Unrelenting Force', 'Have 50,000 Attack.', new AttackRequirement(50000), 0.15);
+        AchievementHandler.addAchievement('FUS RO DAH', 'Have 1,000,000 Attack.', new AttackRequirement(1000000), 0.20);
+        AchievementHandler.addAchievement('OK, I Have Enough Attack Already...', 'Have 25,000,000 Attack.', new AttackRequirement(25000000), 0.25);
+        AchievementHandler.addAchievement('Silver Attack Button!', 'Have 100,000,000 Attack.', new AttackRequirement(100000000), 0.30);
+        AchievementHandler.addAchievement('Pesky Roamers, I Need to One-Shot Routes for Them...', 'Have 250,000,000 Attack.', new AttackRequirement(250000000), 0.35);
+        AchievementHandler.addAchievement('You Pressed F12 by Any Chance?', 'Have 500,000,000 Attack.', new AttackRequirement(500000000), 0.40);
+        AchievementHandler.addAchievement('Left-Left-Right-Right-A-B-A-B - Hey, 1 Million!', 'Have 1,000,000,000 Attack.', new AttackRequirement(1000000000), 0.40);
+        AchievementHandler.addAchievement('Can I Beat Diantha Yet?', 'Have 25,000,000,000 Attack.', new AttackRequirement(25000000000), 0.45);
+        AchievementHandler.addAchievement('No One Can Challenge Me!', 'Have 200,000,000,000 Attack.', new AttackRequirement(200000000000), 0.60);
 
         AchievementHandler.addAchievement('A Few Clicks In', 'Click Attack 10 times.', new ClickRequirement(10, 1), 0.02, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
-        AchievementHandler.addAchievement('Clicking Pro', 'Click Attack 100 times.', new ClickRequirement(100, 1), 0.05, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
-        AchievementHandler.addAchievement('Ultra Clicker', 'Click Attack 1,000 times.', new ClickRequirement(1000, 1), 0.10, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
-        AchievementHandler.addAchievement('Need a New Mouse Yet?', 'Click Attack 10,000 times.', new ClickRequirement(10000, 1), 0.25, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
+        AchievementHandler.addAchievement('Clicking Pro', 'Click Attack 10000 times.', new ClickRequirement(10000, 1), 0.05, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
+        AchievementHandler.addAchievement('Ultra Clicker', 'Click Attack 1,000,000 times.', new ClickRequirement(1000000, 1), 0.10, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
+        AchievementHandler.addAchievement('Need a New Mouse Yet?', 'Click Attack 100,000,000 times.', new ClickRequirement(100000000, 1), 0.25, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
 
         AchievementHandler.addAchievement('Why Is My Voltorb Upside Down?', 'Purchase your first Poké Ball.', new PokeballRequirement(1, GameConstants.Pokeball.Pokeball), 0.01);
         AchievementHandler.addAchievement('Starting a Collection', 'Purchase 10 Poké Balls.', new PokeballRequirement(10, GameConstants.Pokeball.Pokeball), 0.03);
@@ -443,7 +443,7 @@ class AchievementHandler {
         AchievementHandler.addAchievement('Competent Fighter', 'Complete stage 250 in the Battle Frontier.', new BattleFrontierHighestStageRequirement(250), 0.15);
         AchievementHandler.addAchievement('Unstoppable Fighting Machine', 'Complete stage 500 in the Battle Frontier.', new BattleFrontierHighestStageRequirement(500), 0.25);
         AchievementHandler.addAchievement('Living Legend', 'Complete stage 1,000 in the Battle Frontier.', new BattleFrontierHighestStageRequirement(1000), 0.4);
-        AchievementHandler.addAchievement('Where Do They Find These Trainers?', 'Complete stage 2,000 in the Battle Frontier.', new BattleFrontierHighestStageRequirement(2000), 0.5);
+        AchievementHandler.addAchievement('Where Do They Find These Trainers?', 'Complete stage 5,000 in the Battle Frontier.', new BattleFrontierHighestStageRequirement(5000), 0.5);
 
         AchievementHandler.addAchievement('Keep On Fighting', 'Complete 500 total stages in the Battle Frontier.', new BattleFrontierTotalStageRequirement(500), 0.05);
         AchievementHandler.addAchievement('Uphill Battle', 'Complete 1,000 total stages in the Battle Frontier.', new BattleFrontierTotalStageRequirement(1000), 0.15);
@@ -527,10 +527,10 @@ class AchievementHandler {
                         `Defeat ${leaderName} ${gymTitle} in ${gymRegion} 10 times.`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[0], GameConstants.getGymIndex(gym)), 1, category);
                     AchievementHandler.addAchievement(
                         `${elite ? `${gymRegion} ` : ''}${gymTitle} Ruler`,
-                        `Defeat ${leaderName} ${gymTitle} in ${gymRegion} 100 times.`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[1], GameConstants.getGymIndex(gym)), 2, category);
+                        `Defeat ${leaderName} ${gymTitle} in ${gymRegion} 250 times.`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[1], GameConstants.getGymIndex(gym)), 2, category);
                     AchievementHandler.addAchievement(
                         `${elite ? `${gymRegion} ` : ''}${gymTitle} Owner`,
-                        `Defeat ${leaderName} ${gymTitle} in ${gymRegion} 1,000 times.`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[2], GameConstants.getGymIndex(gym)), 3, category);
+                        `Defeat ${leaderName} ${gymTitle} in ${gymRegion} 2,000 times.`, new ClearGymRequirement(GameConstants.ACHIEVEMENT_DEFEAT_GYM_VALUES[2], GameConstants.getGymIndex(gym)), 3, category);
                 }
             });
         };
@@ -555,8 +555,8 @@ class AchievementHandler {
                 }
                 const routeName = Routes.getName(route.number, region, true);
                 AchievementHandler.addAchievement(`${route.routeName} Traveler`, `Defeat 100 Pokémon on ${routeName}.`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[0], region, route.number), 1, category);
-                AchievementHandler.addAchievement(`${route.routeName} Explorer`, `Defeat 1,000 Pokémon on ${routeName}.`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[1], region, route.number), 2, category);
-                AchievementHandler.addAchievement(`${route.routeName} Conqueror`, `Defeat 10,000 Pokémon on ${routeName}.`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[2], region, route.number), 3, category);
+                AchievementHandler.addAchievement(`${route.routeName} Explorer`, `Defeat 5,000 Pokémon on ${routeName}.`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[1], region, route.number), 2, category);
+                AchievementHandler.addAchievement(`${route.routeName} Conqueror`, `Defeat 25,000 Pokémon on ${routeName}.`, new RouteKillRequirement(GameConstants.ACHIEVEMENT_DEFEAT_ROUTE_VALUES[2], region, route.number), 3, category);
             });
             // Gyms
             if (GameConstants.RegionGyms[region]) {
@@ -580,8 +580,8 @@ class AchievementHandler {
                 }
                 AchievementHandler.addAchievement(`${dungeon} Explorer`, `Clear ${dungeon} 10 times.`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[0], GameConstants.getDungeonIndex(dungeon)), 0.8, category);
                 AchievementHandler.addAchievement(`${dungeon} Expert`, `Clear ${dungeon} 100 times.`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[1], GameConstants.getDungeonIndex(dungeon)), 1.2, category);
-                AchievementHandler.addAchievement(`${dungeon} Hermit`, `Clear ${dungeon} 250 times.`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[2], GameConstants.getDungeonIndex(dungeon)), 1.6, category);
-                AchievementHandler.addAchievement(`${dungeon} Dweller`, `Clear ${dungeon} 500 times.`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[3], GameConstants.getDungeonIndex(dungeon)), 2.4, category);
+                AchievementHandler.addAchievement(`${dungeon} Hermit`, `Clear ${dungeon} 500 times.`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[2], GameConstants.getDungeonIndex(dungeon)), 1.6, category);
+                AchievementHandler.addAchievement(`${dungeon} Dweller`, `Clear ${dungeon} 1500 times.`, new ClearDungeonRequirement(GameConstants.ACHIEVEMENT_DEFEAT_DUNGEON_VALUES[3], GameConstants.getDungeonIndex(dungeon)), 2.4, category);
             });
             // Unique Pokémon
             const amt10 = Math.floor(PokemonHelper.calcUniquePokemonsByRegion(region) * .1);

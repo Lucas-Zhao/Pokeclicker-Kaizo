@@ -97,9 +97,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Cheri] = new Berry(
             BerryType.Cheri, // name type
             [5,10,20,30,60], // growth times for each stage [sprout, taller, bloom, berry, death]
-            2, // harvest amount
+            200, // harvest amount
             0.5, // replant rate, 1 is 100%
-            5, // farm points per harvest (farm currency)
+            50, // farm points per harvest (farm currency)
             1, // experience per harvest (affects how fast prices of Berry Master items (mulches, shovels, etc) go back to their base cost after being bought)
             [10, 0, 0, 0, 0], // flavors [Spicy, Dry, Sweet, Bitter, Sour] (for pokeblocks and poffins)
             25, // smoothness (for pokeblocks and poffins)
@@ -114,9 +114,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Chesto] = new Berry(
             BerryType.Chesto,
             [5, 15, 25, 40, 80],
-            3,
+            300,
             0.5,
-            6,
+            60,
             2,
             [0, 10, 0, 0, 0],
             25,
@@ -129,9 +129,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Pecha] = new Berry(
             BerryType.Pecha,
             [10, 35, 50, 60, 120],
-            4,
+            400,
             0.5,
-            7,
+            70,
             3,
             [0, 0, 10, 0, 0],
             25,
@@ -144,9 +144,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Rawst] = new Berry(
             BerryType.Rawst,
             [15, 30, 45, 80, 160],
-            5,
+            500,
             0.5,
-            8,
+            80,
             4,
             [0, 0, 0, 10, 0],
             25,
@@ -159,9 +159,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Aspear] = new Berry(
             BerryType.Aspear,
             [10, 40, 60, 120, 240],
-            6,
+            600,
             0.5,
-            9,
+            90,
             5,
             [0, 0, 0, 0, 10],
             25,
@@ -174,9 +174,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Leppa] = new Berry(
             BerryType.Leppa,
             [100, 120, 140, 240, 480],
-            7,
+            700,
             0.5,
-            10,
+            100,
             6,
             [10, 0, 10, 10, 10],
             20,
@@ -189,9 +189,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Oran] = new Berry(
             BerryType.Oran,
             [120, 180, 240, 300, 600],
-            8,
+            800,
             0.5,
-            20,
+            200,
             7,
             [10, 10, 0, 10, 10],
             20,
@@ -204,9 +204,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Sitrus] = new Berry(
             BerryType.Sitrus,
             [150, 300, 450, 600, 1200],
-            9,
+            900,
             0.5,
-            30,
+            300,
             8,
             [0, 10, 10, 10, 10],
             20,
@@ -221,9 +221,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Persim] = new Berry(
             BerryType.Persim,
             [20, 40, 50, 90, 180],
-            5,
+            500,
             0.4,
-            10,
+            100,
             2,
             [10, 10, 10, 0, 10],
             20,
@@ -236,9 +236,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Razz] = new Berry(
             BerryType.Razz,
             [100, 150, 200, 250, 500],
-            7,
+            700,
             0.4,
-            15,
+            150,
             2,
             [10, 10, 0, 0, 0],
             20,
@@ -251,9 +251,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Bluk] = new Berry(
             BerryType.Bluk,
             [200, 250, 300, 330, 660],
-            9,
+            900,
             0.4,
-            20,
+            200,
             2,
             [0, 10, 10, 0, 0],
             20,
@@ -266,9 +266,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Nanab] = new Berry(
             BerryType.Nanab,
             [25, 30, 35, 250, 500],
-            11,
+            1100,
             0.4,
-            25,
+            250,
             2,
             [0, 0, 10, 10, 0],
             20,
@@ -281,9 +281,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Wepear] = new Berry(
             BerryType.Wepear,
             [150, 350, 375, 400, 800],
-            12,
+            1200,
             0.4,
-            30,
+            300,
             2,
             [0, 0, 0, 10, 10],
             20,
@@ -296,9 +296,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Pinap] = new Berry(
             BerryType.Pinap,
             [30, 60, 180, 240, 480],
-            13,
+            1300,
             0.4,
-            35,
+            350,
             2,
             [10, 0, 0, 0, 10],
             20,
@@ -311,9 +311,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Figy] = new Berry(
             BerryType.Figy,
             [40, 160, 230, 350, 700],
-            14,
+            1400,
             0.3,
-            40,
+            400,
             3,
             [15, 0, 0, 0, 0],
             25,
@@ -326,9 +326,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Wiki] = new Berry(
             BerryType.Wiki,
             [40, 190, 210, 360, 720],
-            15,
+            1500,
             0.3,
-            45,
+            450,
             3,
             [0, 15, 0, 0, 0],
             25,
@@ -341,9 +341,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Mago] = new Berry(
             BerryType.Mago,
             [40, 180, 240, 370, 740],
-            16,
+            1600,
             0.3,
-            50,
+            500,
             3,
             [0, 0, 15, 0, 0],
             25,
@@ -356,9 +356,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Aguav] = new Berry(
             BerryType.Aguav,
             [40, 170, 220, 350, 700],
-            17,
+            1700,
             0.3,
-            55,
+            550,
             3,
             [0, 0, 0, 15, 0],
             25,
@@ -371,9 +371,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Iapapa] = new Berry(
             BerryType.Iapapa,
             [40, 200, 230, 380, 760],
-            18,
+            1800,
             0.3,
-            60,
+            600,
             3,
             [0, 0, 0, 0, 15],
             25,
@@ -386,9 +386,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Lum] = new Berry(
             BerryType.Lum,
             [3000, 3200, 3400, 3600, 43200],
-            1,
+            100,
             0,
-            540,
+            5400,
             3,
             [10, 10, 10, 10, 0],
             25,
@@ -399,7 +399,7 @@ class Farming implements Feature {
                 'This Berry\'s gradual process of storing nutrients beneficial to Pokémon health causes it to mature slowly.',
                 'This Berry multiplies the effect of Berry plants around it.',
             ],
-            new Aura(AuraType.Boost, [1.01, 1.02, 1.03])
+            new Aura(AuraType.Boost, [1.01, 1.03, 1.05])
         );
         //#endregion
 
@@ -407,9 +407,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Pomeg] = new Berry(
             BerryType.Pomeg,
             [200, 1200, 4000, 5400, 10800],
-            20,
+            2000,
             0.2,
-            500,
+            5000,
             10,
             [10, 0, 10, 10, 0],
             20,
@@ -422,9 +422,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Kelpsy] = new Berry(
             BerryType.Kelpsy,
             [240, 2000, 3400, 6000, 12000],
-            21,
+            2100,
             0.2,
-            525,
+            5250,
             10,
             [0, 10, 0, 10, 10],
             20,
@@ -437,9 +437,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Qualot] = new Berry(
             BerryType.Qualot,
             [230, 1000, 2500, 4800, 9600],
-            22,
+            2200,
             0.2,
-            550,
+            5500,
             10,
             [10, 0, 10, 0, 10],
             20,
@@ -452,9 +452,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Hondew] = new Berry(
             BerryType.Hondew,
             [1000, 2000, 5000, 10800, 21600],
-            23,
+            2300,
             0.2,
-            2000,
+            20000,
             10,
             [10, 10, 0, 10, 0],
             20,
@@ -467,9 +467,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Grepa] = new Berry(
             BerryType.Grepa,
             [300, 3400, 5600, 7200, 14400],
-            24,
+            2400,
             0.2,
-            600,
+            6000,
             10,
             [0, 10, 10, 0, 10],
             20,
@@ -482,9 +482,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Tamato] = new Berry(
             BerryType.Tamato,
             [430, 1400, 4000, 8640, 17280],
-            25,
+            2500,
             0.2,
-            625,
+            6250,
             10,
             [20, 10, 0, 0, 0],
             30,
@@ -497,9 +497,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Cornn] = new Berry(
             BerryType.Cornn,
             [1100, 4000, 8000, 9000, 18000],
-            26,
+            2600,
             0.1,
-            700,
+            7000,
             10,
             [0, 20, 10, 0, 0],
             30,
@@ -512,9 +512,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Magost] = new Berry(
             BerryType.Magost,
             [2400, 6500, 10000, 14400, 28800],
-            27,
+            2700,
             0.1,
-            750,
+            7500,
             10,
             [0, 0, 20, 10, 0],
             30,
@@ -527,9 +527,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Rabuta] = new Berry(
             BerryType.Rabuta,
             [2310, 5400, 9500, 12240, 24480],
-            28,
+            2800,
             0.1,
-            800,
+            8000,
             10,
             [0, 0, 0, 20, 10],
             30,
@@ -542,9 +542,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Nomel] = new Berry(
             BerryType.Nomel,
             [1240, 5200, 10500, 15120, 30240],
-            29,
+            2900,
             0.1,
-            850,
+            8500,
             10,
             [10, 0, 0, 0, 20],
             30,
@@ -557,9 +557,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Spelon] = new Berry(
             BerryType.Spelon,
             [2000, 7000, 12000, 15480, 30960],
-            30,
+            3000,
             0.1,
-            900,
+            9000,
             10,
             [30, 10, 0, 0, 0],
             35,
@@ -572,9 +572,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Pamtre] = new Berry(
             BerryType.Pamtre,
             [3000, 10000, 16400, 18000, 36000],
-            31,
+            3100,
             0.1,
-            950,
+            9500,
             10,
             [0, 30, 10, 0, 0],
             35,
@@ -590,9 +590,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Watmel] = new Berry(
             BerryType.Watmel,
             [2300, 3400, 9800, 16560, 33120],
-            32,
+            3200,
             0.1,
-            1000,
+            10000,
             10,
             [0, 0, 30, 10, 0],
             35,
@@ -605,9 +605,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Durin] = new Berry(
             BerryType.Durin,
             [10000, 14000, 18000, 21600, 43200],
-            33,
+            3300,
             0.1,
-            1050,
+            10500,
             10,
             [0, 0, 0, 30, 10],
             35,
@@ -620,9 +620,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Belue] = new Berry(
             BerryType.Belue,
             [5000, 9800, 14500, 19800, 39600],
-            20,
+            2000,
             0.1,
-            1100,
+            11000,
             10,
             [10, 0, 0, 0, 30],
             35,
@@ -635,9 +635,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Pinkan] = new Berry(
             BerryType.Pinkan,
             [1800, 3600, 7200, 14400, 28800],
-            3,
+            300,
             0.1,
-            2500,
+            25000,
             15,
             [0, 0, 35, 0, 0],
             30,
@@ -657,9 +657,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Occa] = new Berry(
             BerryType.Occa,
             [8090, 13200, 16000, 21960, 43920],
-            21,
+            2100,
             0.05,
-            1200,
+            12000,
             15,
             [15, 0, 10, 0, 0],
             30,
@@ -677,9 +677,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Passho] = new Berry(
             BerryType.Passho,
             [490, 3600, 10800, 21600, 43200],
-            22,
+            2200,
             0.05,
-            1300,
+            13000,
             15,
             [0, 15, 0, 10, 0],
             30,
@@ -690,16 +690,16 @@ class Farming implements Feature {
                 'This Berry\'s flesh is dotted with countless tiny bubbles of air that keep it afloat in water.',
                 'This Berry promotes the fruiting of nearby Berry plants.',
             ],
-            new Aura(AuraType.Harvest, [1.1, 1.2, 1.3]),
+            new Aura(AuraType.Harvest, [1.3, 1.5, 1.65]),
             ['Squirtle', 'Totodile', 'Mudkip', 'Piplup', 'Oshawott', 'Froakie', 'Popplio', 'Sobble', 'Quaxly']
         );
 
         this.berryData[BerryType.Wacan] = new Berry(
             BerryType.Wacan,
             [10, 180, 900, 1800, 3600],
-            2,
+            200,
             0.05,
-            250,
+            2500,
             1,
             [0, 0, 15, 0, 10],
             30,
@@ -710,16 +710,16 @@ class Farming implements Feature {
                 'Energy from lightning strikes is drawn into the plant, making the Berries grow big and rich.',
                 'The same energy promotes the growth of nearby Berries.',
             ],
-            new Aura(AuraType.Growth, [1.1, 1.2, 1.3]),
+            new Aura(AuraType.Growth, [1.5, 1.75, 2.2]),
             ['Pikachu', 'Plusle', 'Minun', 'Pachirisu', 'Emolga', 'Dedenne', 'Togedemaru', 'Morpeko (Hangry)', 'Pawmi']
         );
 
         this.berryData[BerryType.Rindo] = new Berry(
             BerryType.Rindo,
             [3600, 7200, 16200, 28800, 57600],
-            24,
+            2400,
             0.05,
-            1400,
+            14000,
             15,
             [10, 0, 0, 15, 0],
             30,
@@ -737,9 +737,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Yache] = new Berry(
             BerryType.Yache,
             [3600, 14400, 28800, 43200, 86400],
-            25,
+            2500,
             0.05,
-            1500,
+            15000,
             15,
             [0, 10, 0, 0, 15],
             30,
@@ -757,9 +757,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Chople] = new Berry(
             BerryType.Chople,
             [5400, 10800, 25200, 36000, 72000],
-            26,
+            2600,
             0.05,
-            1600,
+            16000,
             15,
             [15, 0, 0, 10, 0],
             30,
@@ -770,16 +770,16 @@ class Farming implements Feature {
                 'This Berry contains a substance that generates heat. It can even heat up a chilly heart.',
                 'Growing these Berries will promote Egg growth.',
             ],
-            new Aura(AuraType.Egg, [1.01, 1.02, 1.03]),
+            new Aura(AuraType.Egg, [1.01, 1.03, 1.07]),
             ['Mankey', 'Makuhita', 'Riolu', 'Scraggy', 'Crabrawler']
         );
 
         this.berryData[BerryType.Kebia] = new Berry(
             BerryType.Kebia,
             [100, 200, 400, 600, 86400],
+            100,
             1,
-            1,
-            50,
+            500,
             1,
             [0, 15, 0, 0, 10],
             30,
@@ -798,9 +798,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Shuca] = new Berry(
             BerryType.Shuca,
             [7200, 16200, 32400, 39600, 79200],
-            28,
+            2800,
             1,
-            1700,
+            17000,
             15,
             [10, 0, 15, 0, 0],
             30,
@@ -818,9 +818,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Coba] = new Berry(
             BerryType.Coba,
             [9000, 12600, 16200, 19800, 39600],
-            29,
+            2900,
             0.05,
-            1800,
+            18000,
             15,
             [0, 10, 0, 15, 0],
             30,
@@ -835,9 +835,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Payapa] = new Berry(
             BerryType.Payapa,
             [4680, 11880, 23400, 34200, 68400],
-            30,
+            3000,
             0.05,
-            1900,
+            19000,
             15,
             [0, 0, 10, 0, 15],
             30,
@@ -855,9 +855,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Tanga] = new Berry(
             BerryType.Tanga,
             [450, 900, 1800, 3600, 7200],
-            3,
+            300,
             0.5,
-            500,
+            5000,
             15,
             [20, 0, 0, 0, 10],
             35,
@@ -875,9 +875,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Charti] = new Berry(
             BerryType.Charti,
             [8600, 12960, 23040, 37800, 75600],
-            32,
+            3200,
             0.05,
-            2000,
+            20000,
             15,
             [10, 20, 0, 0, 0],
             35,
@@ -894,10 +894,10 @@ class Farming implements Feature {
 
         this.berryData[BerryType.Kasib] = new Berry(
             BerryType.Kasib,
-            [30, 60, 120, 300, 86400],
+            [30, 60, 120, 300, 9000],
+            100,
             1,
-            1,
-            25,
+            250,
             1,
             [0, 10, 20, 0, 0],
             35,
@@ -915,9 +915,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Haban] = new Berry(
             BerryType.Haban,
             [10800, 21600, 43200, 86400, 172800],
-            34,
+            3400,
             0,
-            4000,
+            40000,
             15,
             [0, 0, 10, 20, 0],
             35,
@@ -935,9 +935,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Colbur] = new Berry(
             BerryType.Colbur,
             [2880, 10080, 19440, 27000, 54000],
-            35,
+            3500,
             0.05,
-            2300,
+            23000,
             15,
             [0, 0, 0, 10, 20],
             35,
@@ -956,9 +956,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Babiri] = new Berry(
             BerryType.Babiri,
             [7200, 16200, 32400, 64800, 129600],
-            36,
+            3600,
             0.05,
-            2400,
+            24000,
             15,
             [25, 10, 0, 0, 0],
             35,
@@ -976,9 +976,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Chilan] = new Berry(
             BerryType.Chilan,
             [240, 1430, 2970, 7200, 14400],
-            10,
+            1000,
             0.05,
-            500,
+            5000,
             15,
             [0, 25, 10, 0, 0],
             35,
@@ -993,9 +993,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Roseli] = new Berry(
             BerryType.Roseli,
             [2410, 5040, 12600, 25200, 50400],
-            38,
+            3800,
             0.05,
-            2500,
+            25000,
             15,
             [0, 0, 25, 10, 0],
             35,
@@ -1006,16 +1006,16 @@ class Farming implements Feature {
                 'This Berry is sweet with a hint of bitterness and has a lingering sweet scent. It is often dried and used to make tea.',
                 'The scent of this Berry plant attracts wild Pokémon.',
             ],
-            new Aura(AuraType.Attract, [1.02, 1.04, 1.07]),
+            new Aura(AuraType.Attract, [1.2, 1.5, 1.9]),
             ['Clefairy', 'Togepi', 'Ralts']
         );
 
         this.berryData[BerryType.Snover] = new Berry(
             BerryType.Snover,
             [3600, 7200, 10800, 14400, 28800],
-            5,
+            500,
             0.01,
-            1250,
+            12500,
             15,
             [0, 0, 20, 0, 10],
             35,
@@ -1032,9 +1032,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Micle] = new Berry(
             BerryType.Micle,
             [3960, 7920, 15840, 31680, 63360],
-            1,
+            100,
             0.05,
-            2600,
+            26000,
             20,
             [0, 40, 10, 0, 0],
             60,
@@ -1052,9 +1052,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Custap] = new Berry(
             BerryType.Custap,
             [3240, 8280, 13320, 27360, 54720],
-            1,
+            100,
             0.05,
-            2700,
+            27000,
             20,
             [0, 0, 40, 10, 0],
             60,
@@ -1065,16 +1065,16 @@ class Farming implements Feature {
                 'The flesh underneath the Custap Berry\'s tough skin is sweet and creamy soft.',
                 'This inspires Pokémon to train harder.',
             ],
-            new Aura(AuraType.Xp, [1.005, 1.01, 1.015]),
+            new Aura(AuraType.Xp, [1.1, 1.5, 2]),
             ['Burmy (No Coat)']
         );
 
         this.berryData[BerryType.Jaboca] = new Berry(
             BerryType.Jaboca,
             [4320, 8640, 16560, 33480, 66960],
-            1,
+            100,
             0.05,
-            2800,
+            28000,
             20,
             [0, 0, 0, 40, 10],
             60,
@@ -1085,15 +1085,15 @@ class Farming implements Feature {
                 'The cluster of drupelets that make up this Berry pop rhythmically if the Berry is handled roughly.',
                 'The sound of these Berries attracts rare wild Pokémon.',
             ],
-            new Aura(AuraType.Roaming, [1.005, 1.01, 1.015])
+            new Aura(AuraType.Roaming, [1.01, 1.03, 1.07])
         );
 
         this.berryData[BerryType.Rowap] = new Berry(
             BerryType.Rowap,
             [5760, 9000, 14040, 21240, 42480],
-            1,
+            100,
             0.05,
-            2900,
+            29000,
             20,
             [10, 0, 0, 0, 40],
             60,
@@ -1104,15 +1104,15 @@ class Farming implements Feature {
                 'In days of old, people worked the top-shaped pieces of this Berry free and used them as toys.',
                 'These berries make catching efforts worth more.',
             ],
-            new Aura(AuraType.Ev, [1.005, 1.01, 1.015])
+            new Aura(AuraType.Ev, [1.008, 1.015, 1.025])
         );
 
         this.berryData[BerryType.Kee] = new Berry(
             BerryType.Kee,
             [4680, 9360, 18360, 36360, 72720],
-            1,
+            100,
             0.05,
-            3000,
+            30000,
             20,
             [30, 30, 10, 10, 10],
             60,
@@ -1125,9 +1125,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Maranga] = new Berry(
             BerryType.Maranga,
             [5040, 10080, 20160, 40320, 80640],
-            1,
+            100,
             0.05,
-            8000,
+            80000,
             20,
             [10, 10, 30, 30, 10],
             60,
@@ -1140,9 +1140,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Liechi] = new Berry(
             BerryType.Liechi,
             [21600, 43200, 86400, 172800, 345600],
-            0.5,
+            50,
             0,
-            10000,
+            100000,
             20,
             [30, 10, 30, 0, 0],
             40,
@@ -1157,9 +1157,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Ganlon] = new Berry(
             BerryType.Ganlon,
             [21600, 43200, 86400, 172800, 345600],
-            0.5,
+            50,
             0,
-            10000,
+            100000,
             20,
             [0, 30, 10, 30, 0],
             40,
@@ -1172,9 +1172,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Salac] = new Berry(
             BerryType.Salac,
             [21600, 43200, 86400, 172800, 345600],
-            0.5,
+            50,
             0,
-            10000,
+            100000,
             20,
             [0, 0, 30, 10, 30],
             40,
@@ -1187,9 +1187,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Petaya] = new Berry(
             BerryType.Petaya,
             [10800, 21600, 43200, 86400, 432000],
-            0.5,
+            50,
             0,
-            15000,
+            150000,
             20,
             [30, 0, 0, 30, 10],
             40,
@@ -1207,9 +1207,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Apicot] = new Berry(
             BerryType.Apicot,
             [10800, 21600, 43200, 86400, 432000],
-            0.5,
+            50,
             0,
-            15000,
+            150000,
             20,
             [10, 30, 0, 0, 30],
             40,
@@ -1222,9 +1222,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Lansat] = new Berry(
             BerryType.Lansat,
             [10800, 21600, 43200, 86400, 432000],
-            0.5,
+            50,
             0,
-            15000,
+            150000,
             20,
             [30, 10, 30, 10, 30],
             50,
@@ -1237,9 +1237,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Starf] = new Berry(
             BerryType.Starf,
             [10800, 21600, 43200, 86400, 432000],
-            0.5,
+            50,
             0,
-            15000,
+            150000,
             20,
             [30, 10, 30, 10, 30],
             50,
@@ -1247,16 +1247,16 @@ class Farming implements Feature {
             15.3,
             BerryFirmness.Super_Hard,
             ['This Berry is considered a mirage. It was said to be so strong that it had to be abandoned at the world\'s edge.'],
-            new Aura(AuraType.Shiny, [1.005, 1.01, 1.015]),
+            new Aura(AuraType.Shiny, [1.1, 1.3, 1.75]),
             ['Jirachi']
         );
 
         this.berryData[BerryType.Enigma] = new Berry(
             BerryType.Enigma,
             [10800, 21600, 43200, 86400, 604800],
-            0.5,
+            50,
             0,
-            15000,
+            150000,
             20,
             [40, 10, 0, 0, 0],
             60,
@@ -1271,9 +1271,9 @@ class Farming implements Feature {
         this.berryData[BerryType.Hopo] = new Berry(
             BerryType.Hopo,
             [10800, 21600, 43200, 86400, 604800],
-            1,
+            100,
             0,
-            15000,
+            150000,
             25,
             [15, 40, 35, 30, 25],
             50,

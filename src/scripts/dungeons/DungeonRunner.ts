@@ -383,9 +383,9 @@ class DungeonRunner {
         const clears = App.game.statistics.dungeonsCleared[GameConstants.getDungeonIndex(dungeonName)]();
 
         const config = [
-            { flash: DungeonFlash.tiers[0], clearsNeeded: 100 },
-            { flash: DungeonFlash.tiers[1], clearsNeeded: 250 },
-            { flash: DungeonFlash.tiers[2], clearsNeeded: 400 },
+            { flash: DungeonFlash.tiers[0], clearsNeeded: 10 },
+            { flash: DungeonFlash.tiers[1], clearsNeeded: 100 },
+            { flash: DungeonFlash.tiers[2], clearsNeeded: 250 },
         ].reverse();
 
         // findIndex, so we can get next tier when light ball is implemented
