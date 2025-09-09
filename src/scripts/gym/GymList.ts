@@ -10,7 +10,7 @@ GymList['Pewter City'] = new Gym(
         new GymPokemon('Onix', 4399, 14),
     ],
     BadgeEnums.Boulder,
-    250*2,
+    250*4,
     'I took you for granted, and so I lost. As proof of your victory, I confer on you this... the official Pokémon League BoulderBadge.',
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 2)]
 );
@@ -22,7 +22,7 @@ GymList['Cerulean City'] = new Gym(
         new GymPokemon('Starmie', 10800, 21),
     ],
     BadgeEnums.Cascade,
-    500*2,
+    500*4,
     'Wow! You\'re too much, all right! You can have the CascadeBadge to show that you beat me.',
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 4)],
     () => {
@@ -38,7 +38,7 @@ GymList['Vermilion City'] = new Gym(
         new GymPokemon('Raichu', 65675, 24),
     ],
     BadgeEnums.Thunder,
-    1000*2,
+    1000*4,
     'Now that\'s a shocker! You\'re the real deal, kid! Fine, then, take the ThunderBadge!',
     [
         new TemporaryBattleRequirement('Blue 3'),
@@ -54,7 +54,7 @@ GymList['Celadon City'] = new Gym(
         new GymPokemon('Vileplume', 106400, 29),
     ],
     BadgeEnums.Rainbow,
-    1500*2,
+    1500*4,
     'Oh! I concede defeat. You are remarkably strong. I must confer on you the RainbowBadge.',
     [new RouteKillRequirement(10, GameConstants.Region.kanto, 7)]
 );
@@ -68,7 +68,7 @@ GymList['Saffron City'] = new Gym(
         new GymPokemon('Alakazam', 455380, 43),
     ],
     BadgeEnums.Marsh,
-    2500*2,
+    2500*4,
     'This loss shocks me! But a loss is a loss. I admit I didn\'t work hard enough to win. You earned the MarshBadge.',
     [new QuestLineStepCompletedRequirement('Team Rocket', 3)]
 );
@@ -82,7 +82,7 @@ GymList['Fuchsia City'] = new Gym(
         new GymPokemon('Weezing', 540430, 43),
     ],
     BadgeEnums.Soul,
-    3500*2,
+    3500*4,
     'Humph! You have proven your worth! Here! Take the Soul Badge!',
     [
         new OneFromManyRequirement([
@@ -105,7 +105,7 @@ GymList['Cinnabar Island'] = new Gym(
         new GymPokemon('Arcanine', 700290, 47),
     ],
     BadgeEnums.Volcano,
-    5000*2,
+    5000*4,
     'I have burned down to nothing! Not even ashes remain! You have earned the VolcanoBadge.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokémon Mansion'))],
     () => {
@@ -123,7 +123,7 @@ GymList['Viridian City'] = new Gym(
         new GymPokemon('Rhyhorn', 650000, 50),
     ],
     BadgeEnums.Earth,
-    6000*2,
+    6000*4,
     'Ha! That was a truly intense fight. You have won! As proof, here is the Earth Badge!',
     [
         new GymBadgeRequirement(BadgeEnums.Thunder),
@@ -151,7 +151,7 @@ GymList['Elite Lorelei'] = new Gym(
         new GymPokemon('Lapras', 1102050, 54),
     ],
     BadgeEnums.Elite_Lorelei,
-    7500*2,
+    7500*4,
     '...Things shouldn\'t be this way!',
     [new GymBadgeRequirement(BadgeEnums.Earth)],
     undefined,
@@ -169,7 +169,7 @@ GymList['Elite Bruno'] = new Gym(
         new GymPokemon('Machamp', 1102050, 56),
     ],
     BadgeEnums.Elite_Bruno,
-    7500*2,
+    7500*4,
     'Why? How could I lose?',
     [new GymBadgeRequirement(BadgeEnums.Elite_Lorelei)],
     undefined,
@@ -187,7 +187,7 @@ GymList['Elite Agatha'] = new Gym(
         new GymPokemon('Gengar', 1102050, 58),
     ],
     BadgeEnums.Elite_Agatha,
-    7500*2,
+    7500*4,
     'Oh, my! You\'re something special, child!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Bruno)],
     undefined,
@@ -205,7 +205,7 @@ GymList['Elite Lance'] = new Gym(
         new GymPokemon('Dragonite', 1302050, 60),
     ],
     BadgeEnums.Elite_Lance,
-    7500*2,
+    7500*4,
     'That\'s it! I hate to admit it, but you are a Pokémon master!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Agatha)],
     undefined,
@@ -234,7 +234,7 @@ GymList['Champion Blue'] = new Gym(
         new GymPokemon('Venusaur', 1500000, 63, new StarterRequirement(GameConstants.Region.kanto, GameConstants.Starter.Special)),
     ],
     BadgeEnums.Elite_KantoChampion,
-    10000*2,
+    10000*4,
     'NO! That can\'t be! You beat me at my best! After all that work to become the League Champ? My reign is over already? It\'s not fair!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Lance)],
     () => {},
@@ -251,7 +251,7 @@ GymList['Violet City'] = new Gym(
         new GymPokemon('Pidgeotto', 5040000, 9),
     ],
     BadgeEnums.Zephyr,
-    500,
+    500*4,
     '...Darn! My Dad\'s cherished bird Pokémon... All right. Take this. It\'s the official Pokémon League Zephyr Badge.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Sprout Tower'))]
 );
@@ -264,7 +264,7 @@ GymList['Azalea Town'] = new Gym(
         new GymPokemon('Scyther', 5355000, 16),
     ],
     BadgeEnums.Hive,
-    1000,
+    1000*4,
     'Whoa, amazing! You\'re an expert on Pokémon! My research isn\'t complete yet. Ok, you win. Take this Badge.',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Slowpoke Well'))]
 );
@@ -276,7 +276,7 @@ GymList['Goldenrod City'] = new Gym(
         new GymPokemon('Miltank', 8500000, 20),
     ],
     BadgeEnums.Plain,
-    1500,
+    1500*4,
     '...Sniff... What? What do you want? A badge? Oh, right. I forgot. Here\'s the Plain Badge.',
     [new RouteKillRequirement(10, GameConstants.Region.johto, 34)]
 );
@@ -290,7 +290,7 @@ GymList['Ecruteak City'] = new Gym(
         new GymPokemon('Haunter', 6500000, 23),
     ],
     BadgeEnums.Fog,
-    2500,
+    2500*4,
     'I\'m not good enough yet... All right. This Badge is yours.',
     [new GymBadgeRequirement(BadgeEnums.Plain)],
     () => {
@@ -306,7 +306,7 @@ GymList['Cianwood City'] = new Gym(
         new GymPokemon('Poliwrath', 13275000, 30),
     ],
     BadgeEnums.Storm,
-    3500,
+    3500*4,
     'Wha? Huh? I lost? How about that! You\'re worthy of the Storm Badge!',
     [new QuestLineStepCompletedRequirement('The Sick Ampharos', 2)]
 );
@@ -319,7 +319,7 @@ GymList['Olivine City'] = new Gym(
         new GymPokemon('Steelix', 13650000, 35),
     ],
     BadgeEnums.Mineral,
-    4000,
+    4000*4,
     '...You are a better trainer than me, in both skill and kindness. In accordance with League rules, I confer upon you this Badge.',
     [new QuestLineCompletedRequirement('The Sick Ampharos')]
 );
@@ -332,7 +332,7 @@ GymList['Mahogany Town'] = new Gym(
         new GymPokemon('Piloswine', 14700000, 31),
     ],
     BadgeEnums.Glacier,
-    5000,
+    5000*4,
     'Ah, I am impressed by your prowess. With your strong will, I know you will overcome all life\'s obstacles. You are worthy of this Badge!',
     [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Team Rocket\'s Hideout'))]
 );
@@ -346,7 +346,7 @@ GymList['Blackthorn City'] = new Gym(
         new GymPokemon('Kingdra', 19800000, 40),
     ],
     BadgeEnums.Rising,
-    7500,
+    7500*4,
     'Here, this is the Rising Badge... Hurry up! Take it!',
     [new GymBadgeRequirement(BadgeEnums.Glacier)]
 );
@@ -363,7 +363,7 @@ GymList['Elite Will'] = new Gym(
         new GymPokemon('Xatu', 24723750, 42),
     ],
     BadgeEnums.Elite_Will,
-    10000,
+    10000*4,
     'Even though I was defeated, I won\'t change my course. I will continue battling until I stand above all Trainers! Now move on and experience the true ferocity of the Elite Four.',
     [new TemporaryBattleRequirement('Silver 5')]
 );
@@ -378,7 +378,7 @@ GymList['Elite Koga'] = new Gym(
         new GymPokemon('Crobat', 24723750, 44),
     ],
     BadgeEnums.Elite_Koga,
-    10000,
+    10000*4,
     'I subjected you to everything I could muster. But my efforts failed. I must hone my skills. Go on to the next room, and put your abilities to the test!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Will)],
     undefined, undefined, { displayName: 'Elite Koga' }
@@ -394,7 +394,7 @@ GymList['Elite Bruno2'] = new Gym(
         new GymPokemon('Machamp', 24723750, 46),
     ],
     BadgeEnums.Elite_Bruno2,
-    10000,
+    10000*4,
     'Having lost, I have no right to say anything… Go face your next challenge!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Koga)],
     undefined, undefined, { displayName: 'Elite Bruno' }
@@ -410,7 +410,7 @@ GymList['Elite Karen'] = new Gym(
         new GymPokemon('Houndoom', 25270000, 47),
     ],
     BadgeEnums.Elite_Karen,
-    10000,
+    10000*4,
     'Strong Pokémon. Weak Pokémon. That is only the selfish perception of people. Truly skilled Trainers should try to win with the Pokémon they love best. I like your style. You understand what\'s important. Go on — — the Champion is waiting.',
     [new GymBadgeRequirement(BadgeEnums.Elite_Bruno2)]
 );
@@ -427,7 +427,7 @@ GymList['Champion Lance'] = new Gym(
         new GymPokemon('Dragonite', 27000000, 50),
     ],
     BadgeEnums.Elite_JohtoChampion,
-    13000,
+    13000*4,
     '…It\'s over. But it\'s an odd feeling. I\'m not angry that I lost. In fact, I feel happy. Happy that I witnessed the rise of a great new Champion!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Karen)],
     () => {},
