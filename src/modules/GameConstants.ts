@@ -429,7 +429,7 @@ export const QUESTS_PER_SET = 10;
 export const BASE_EP_YIELD = 200;
 export const STONE_EP_YIELD = 2000;
 export const SHOPMON_EP_YIELD = 2000;
-export const SAFARI_EP_YIELD = 2000;
+export const SAFARI_EP_YIELD = 5000;
 
 export const SHINY_EP_MODIFIER = 9;
 export const REPEATBALL_EP_MODIFIER = 15;
