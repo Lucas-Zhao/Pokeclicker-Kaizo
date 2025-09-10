@@ -427,7 +427,7 @@ GymList['Champion Lance'] = new Gym(
         new GymPokemon('Dragonite', 27000000, 50),
     ],
     BadgeEnums.Elite_JohtoChampion,
-    13000*4,
+    13000*8,
     '…It\'s over. But it\'s an odd feeling. I\'m not angry that I lost. In fact, I feel happy. Happy that I witnessed the rise of a great new Champion!',
     [new GymBadgeRequirement(BadgeEnums.Elite_Karen)],
     () => {},
