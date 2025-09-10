@@ -313,7 +313,7 @@ class Party implements Feature, TmpPartyType {
 
     calculateClickAttack(useItem = false): number {
         const clickAttack =  this.calculateBaseClickAttack();
-        const bonus = this.multiplier.getBonus('clickAttack', useItem);
+        const bonus = this.multiplier.getBonus('clickAttack', useItem) * 2;
         return Math.floor(clickAttack * bonus);
     }
 
@@ -332,7 +332,7 @@ class Party implements Feature, TmpPartyType {
         });
 
         return {
-            caughtPokemon: this.activePartyPokemon.length,
+            caughtPokemon: this.activePartyPokemon.length * 1.3,
             shinyPokemon: numShiny,
             resistantPokemon: numResistant,
             purifiedPokemon: numPurified,
