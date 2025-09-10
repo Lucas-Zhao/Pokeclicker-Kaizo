@@ -267,14 +267,14 @@ class HatcheryHelpers {
 
 // Note: Mostly Gender-neutral names used as the trainer sprite is (seeded) randomly generated, or check the sprite
 HatcheryHelpers.add(new HatcheryHelper('Sam', new Amount(1000, GameConstants.Currency.money), 60, 60, new HatchRequirement(100)));
-HatcheryHelpers.add(new HatcheryHelper('Blake', new Amount(10000, GameConstants.Currency.money), 60, 70, new HatchRequirement(500)));
-HatcheryHelpers.add(new HatcheryHelper('Jasmine', new Amount(50000, GameConstants.Currency.money), 65, 100, new UniqueItemOwnedRequirement('HatcheryHelperJasmine', 'purchase', 'Purchased in the Hoenn region.')));
-HatcheryHelpers.add(new HatcheryHelper('Leslie', new Amount(777777, GameConstants.Currency.money), 200, 100, new UniqueItemOwnedRequirement('HatcheryHelperLeslie', 'purchase', 'Obtain and redeem a code from the PokéClicker Discord server.')));
-HatcheryHelpers.add(new HatcheryHelper('Parker', new Amount(1000, GameConstants.Currency.dungeonToken), 65, 75, new HatchRequirement(1000)));
-HatcheryHelpers.add(new HatcheryHelper('Dakota', new Amount(10000, GameConstants.Currency.dungeonToken), 100, 100, new UniqueItemOwnedRequirement('HatcheryHelperDakota', 'purchase', 'Purchased in the Johto region.')));
-HatcheryHelpers.add(new HatcheryHelper('Cameron', new Amount(75, GameConstants.Currency.farmPoint), 125, 125, new UniqueItemOwnedRequirement('HatcheryHelperCameron', 'purchase', 'Purchased in the Hoenn region.')));
+HatcheryHelpers.add(new HatcheryHelper('Blake', new Amount(50000, GameConstants.Currency.money), 100, 75, new HatchRequirement(500)));
+HatcheryHelpers.add(new HatcheryHelper('Jasmine', new Amount(150000, GameConstants.Currency.money), 125, 150, new UniqueItemOwnedRequirement('HatcheryHelperJasmine', 'purchase', 'Purchased in the Hoenn region.')));
+HatcheryHelpers.add(new HatcheryHelper('Leslie', new Amount(777777, GameConstants.Currency.money), 200, 200, new UniqueItemOwnedRequirement('HatcheryHelperLeslie', 'purchase', 'Obtain and redeem a code from the PokéClicker Discord server.')));
+HatcheryHelpers.add(new HatcheryHelper('Parker', new Amount(10000, GameConstants.Currency.dungeonToken), 100, 100, new HatchRequirement(1000)));
+HatcheryHelpers.add(new HatcheryHelper('Dakota', new Amount(75000, GameConstants.Currency.dungeonToken), 200, 200, new UniqueItemOwnedRequirement('HatcheryHelperDakota', 'purchase', 'Purchased in the Johto region.')));
+HatcheryHelpers.add(new HatcheryHelper('Cameron', new Amount(125, GameConstants.Currency.farmPoint), 175, 175, new UniqueItemOwnedRequirement('HatcheryHelperCameron', 'purchase', 'Purchased in the Hoenn region.')));
 HatcheryHelpers.add(new HatcheryHelper('Justice', new Amount(10, GameConstants.Currency.questPoint), 150, 100, new QuestRequirement(200)));
 HatcheryHelpers.add(new HatcheryHelper('Carey', new Amount(20, GameConstants.Currency.questPoint), 100, 175, new UniqueItemOwnedRequirement('HatcheryHelperCarey', 'purchase', 'Purchased in the Johto region.')));
 HatcheryHelpers.add(new HatcheryHelper('Aiden', new Amount(20, GameConstants.Currency.diamond), 150, 150, new UndergroundLayersMinedRequirement(100)));
-HatcheryHelpers.add(new HatcheryHelper('Kris', new Amount(40, GameConstants.Currency.diamond), 150, 200, new UniqueItemOwnedRequirement('HatcheryHelperKris', 'purchase', 'Purchased in the Kanto region.')));
+HatcheryHelpers.add(new HatcheryHelper('Kris', new Amount(85, GameConstants.Currency.diamond), 250, 350, new UniqueItemOwnedRequirement('HatcheryHelperKris', 'purchase', 'Purchased in the Kanto region.')));
 HatcheryHelpers.add(new HatcheryHelper('Noel', new Amount(25, GameConstants.Currency.battlePoint), 150, 250, new UniqueItemOwnedRequirement('HatcheryHelperNoel', 'purchase', 'Purchased in the Hoenn region.')));
