@@ -723,19 +723,19 @@ export const ROUTE_KILLS_NEEDED = 10;
 
 export const ACHIEVEMENT_DEFEAT_ROUTE_VALUES = [
     100,
-    5000,
-    25000,
+    1000,
+    10000,
 ];
 export const ACHIEVEMENT_DEFEAT_GYM_VALUES = [
     10,
-    250,
-    2000,
+    100,
+    1000,
 ];
 export const ACHIEVEMENT_DEFEAT_DUNGEON_VALUES = [
     10,
     100,
+    250,
     500,
-    1500,
 ];
 
 // Use Environments for game mechanics (ex. evolutions, dive ball)
