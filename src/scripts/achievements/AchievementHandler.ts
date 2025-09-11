@@ -324,7 +324,7 @@ class AchievementHandler {
         AchievementHandler.addAchievement('A Few Clicks In', 'Click Attack 10 times.', new ClickRequirement(10, 1), 0.02, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Clicking Pro', 'Click Attack 10000 times.', new ClickRequirement(10000, 1), 0.05, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
         AchievementHandler.addAchievement('Ultra Clicker', 'Click Attack 1,000,000 times.', new ClickRequirement(1000000, 1), 0.10, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
-        AchievementHandler.addAchievement('Need a New Mouse Yet?', 'Click Attack 100,000,000 times.', new ClickRequirement(100000000, 1), 0.25, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
+        AchievementHandler.addAchievement('Need a New Mouse Yet?', 'Click Attack 50,000,000 times.', new ClickRequirement(50000000, 1), 0.25, GameConstants.ExtraAchievementCategories.global, () => !challenges.list.disableClickAttack.active());
 
         AchievementHandler.addAchievement('Why Is My Voltorb Upside Down?', 'Purchase your first Poké Ball.', new PokeballRequirement(1, GameConstants.Pokeball.Pokeball), 0.01);
         AchievementHandler.addAchievement('Starting a Collection', 'Purchase 10 Poké Balls.', new PokeballRequirement(10, GameConstants.Pokeball.Pokeball), 0.03);
@@ -406,16 +406,16 @@ class AchievementHandler {
         AchievementHandler.addAchievement('My Shovel Is Starting To Crack', 'Dig up 10 items in the Underground.', new UndergroundItemsFoundRequirement(10), 0.02);
         AchievementHandler.addAchievement('Why Can\'t I Make a Diamond Shovel?', 'Dig up 100 items in the Underground.', new UndergroundItemsFoundRequirement(100), 0.08);
         AchievementHandler.addAchievement('This Is Definitely Not Minecraft', 'Dig up 1,000 items in the Underground.', new UndergroundItemsFoundRequirement(1000), 0.1);
-        AchievementHandler.addAchievement('I Wonder How Much Is Down There...', 'Dig up 10,000 items in the Underground.', new UndergroundItemsFoundRequirement(10000), 0.4);
+        AchievementHandler.addAchievement('I Wonder How Much Is Down There...', 'Dig up 5,000 items in the Underground.', new UndergroundItemsFoundRequirement(5000), 0.4);
 
         AchievementHandler.addAchievement('The Earth Is Like Onions', 'Dig deeper into the Underground for the first time.', new UndergroundLayersMinedRequirement(1), 0.01);
         AchievementHandler.addAchievement('This Takes Foreverrrrrrr', 'Dig deeper into the Underground 10 times.', new UndergroundLayersMinedRequirement(10), 0.03);
         AchievementHandler.addAchievement('DigDug Ain\'t Got Nothin\' on Me', 'Dig deeper into the Underground 100 times.', new UndergroundLayersMinedRequirement(100), 0.1);
-        AchievementHandler.addAchievement('Both My Thumbs Are Green! This Can\'t Be Healthy', 'Dig deeper into the Underground 1,000 times.', new UndergroundLayersMinedRequirement(1000), 0.3);
+        AchievementHandler.addAchievement('Both My Thumbs Are Green! This Can\'t Be Healthy', 'Dig deeper into the Underground 750 times.', new UndergroundLayersMinedRequirement(750), 0.3);
 
         AchievementHandler.addAchievement('Well, this is easy', 'Reach Underground Level 10.', new UndergroundLevelRequirement(10), 0.25);
         AchievementHandler.addAchievement('To infinity and beyond', 'Reach Underground Level 20.', new UndergroundLevelRequirement(20), 0.5);
-        AchievementHandler.addAchievement('Just one more thing', 'Reach Underground Level 50.', new UndergroundLevelRequirement(50), 1);
+        AchievementHandler.addAchievement('Just one more thing', 'Reach Underground Level 35.', new UndergroundLevelRequirement(35), 1);
 
         AchievementHandler.addAchievement('Just pick one', 'Get at least 1 Underground Expert to level 25.', new UndergroundHelperRequirement(1, 25), 0.3);
         AchievementHandler.addAchievement('It\'s an honest days work', 'Get all 5 Underground Experts to level 25.', new UndergroundHelperRequirement(5, 25), 0.6);
@@ -424,7 +424,7 @@ class AchievementHandler {
 
         AchievementHandler.addAchievement('Everyday I\'m chiseling', 'Use the Chisel Tool 1,000 times.', new UndergroundUseToolRequirement(UndergroundToolType.Chisel, 1000), 0.25);
         AchievementHandler.addAchievement('U Can\'t Touch This', 'Use the Hammer Tool 2,000 times.', new UndergroundUseToolRequirement(UndergroundToolType.Hammer, 2000), 0.25);
-        AchievementHandler.addAchievement('KABOOM!', 'Use the Bomb Tool 5,000 times.', new UndergroundUseToolRequirement(UndergroundToolType.Bomb, 5000), 0.25);
+        AchievementHandler.addAchievement('KABOOM!', 'Use the Bomb Tool 1,500 times.', new UndergroundUseToolRequirement(UndergroundToolType.Bomb, 1500), 0.25);
         AchievementHandler.addAchievement('Eagle Eye', 'Use the Survey Tool 50 times.', new UndergroundUseToolRequirement(UndergroundToolType.Survey, 50), 0.25);
         AchievementHandler.addAchievement('Fine, I\'ll do it myself', 'Use any tool 10,000 times.', new UndergroundUseToolRequirement(null, 10000), 0.5);
 
