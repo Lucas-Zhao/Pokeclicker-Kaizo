@@ -433,8 +433,8 @@ export const SAFARI_EP_YIELD = 15000;
 
 export const SHINY_EP_MODIFIER = 9;
 export const REPEATBALL_EP_MODIFIER = 15;
-export const DUNGEON_EP_MODIFIER = 5;
-export const DUNGEON_BOSS_EP_MODIFIER = 25;
+export const DUNGEON_EP_MODIFIER = 15;
+export const DUNGEON_BOSS_EP_MODIFIER = 30;
 export const ROAMER_EP_MODIFIER = 65;
 export const SHADOW_EP_MODIFIER = 4;
 export const BASE_WANDERER_EP_MODIFIER = 4;
